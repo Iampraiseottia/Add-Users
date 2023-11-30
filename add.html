@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Users | OTTIATECH</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+
+    <form class="add">
+        <h2>
+            Add Users
+        </h2>
+        <div class="message"></div>
+        <div class="fields">
+            <labe>Name: <input type="text" name="name" id="name" placeholder="Enter Your Name" class="name"></label>
+            <p id="error" style="margin-top: -40px;"></p>
+            <br>
+            <label>Email: <input type="email" name="email" id="email" placeholder="Enter Your Email" class="email"></label>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+
+        <ul id="users"></ul>
+
+    </form>
+    
+
+    <script src="add.js"></script>
+
+</body>
+</html>
