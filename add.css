@@ -11,7 +11,7 @@ body{
     text-align: center;
     height: auto;
     width: auto;
-    margin: 1px 100px;
+    margin: 1px 80px;
     padding: 30px;
     background-color: lightgoldenrodyellow;
     margin-top: 100px;
@@ -27,16 +27,42 @@ h2{
 }
 
 .name,
-.email{
+.email,
+.User-Name,
+.Phone-Number,
+.Country,
+.Zip-Code{
     height: 26px;
-    margin-left: 19px;
     width: 290px;
     padding: 6px 19px;
+    margin-top: 10px;
     border: 1px solid sienna;
 }
 
 .email{
-    margin-top: 18px;
+    margin-left: 78px;
+}
+
+.name{
+    margin-left: 75px;
+}
+
+.User-Name{
+    margin-top: 10px;
+    margin-left: 42px;
+
+}
+
+.Phone-Number{
+    margin-left: 20px;
+}
+
+.Country{
+    margin-left: 63px;
+}
+
+.Zip-Code{
+    margin-left: 58px;
 }
 
 input:focus{
