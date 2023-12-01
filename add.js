@@ -28,7 +28,7 @@ function onSubmit(e){
     }
     else{
         const listUsers = document.createElement('li');
-        listUsers.appendChild(document.createTextNode(`${name.value.toUpperCase()} : ${email.value.toLowerCase()},  ${userName.value.toUpperCase()} : ${country.value.toUpperCase()}, ${zipCode.value} ${phoneNumber.value}`));
+        listUsers.appendChild(document.createTextNode(`${name.value.toUpperCase()} , ${email.value.toLowerCase()},  ${userName.value.toUpperCase()} : ${country.value.toUpperCase()}, ${zipCode.value} ${phoneNumber.value}`));
         userList.appendChild(listUsers);
 
         name.value = '';
@@ -40,7 +40,7 @@ function onSubmit(e){
 
         listUsers.style.listStyle = 'none';
         listUsers.style.marginTop = '20px';
-        listUsers.style.height = '45px';
+        listUsers.style.height = '65px';
         listUsers.style.background = 'lightcyan';
         listUsers.style.padding = '10px 200px';
         listUsers.style.width = 'auto';
@@ -48,5 +48,8 @@ function onSubmit(e){
         listUsers.style.fontWeight = '600';
         listUsers.style.marginBottom = '10px';
         listUsers.style.letterSpacing = '1.5px';
+        listUsers.style.marginLeft = '90px';
+        listUsers.style.marginRight = '90px';
+
     }
 }
